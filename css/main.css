@@ -275,6 +275,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f6fa', end
     font-size: 10pt;
     
 }
+.part9 ul li:hover a
+{
+    color:dimgray;
+    
+}
 .header1
 {
     width: 1280px;
