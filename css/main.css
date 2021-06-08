@@ -1,0 +1,404 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face
+{
+    font-family: MontserratBold;
+    src:url("../font/Montserrat-Bold.ttf")
+}
+@font-face
+{
+    font-family: MontserratSemiBold ;
+    src:url("../font/Montserrat-SemiBold.ttf")
+    
+}
+@font-face
+{
+    font-family: MontserratRegular ;
+    src:url("../font/Montserrat-Regular.ttf")
+    
+}
+@font-face
+{
+    font-family: MontserratThin ;
+    src:url("../font/Montserrat-Thin.ttf")
+    
+}
+h1
+{
+	font-size: 24pt;
+	font-family:MontserratBold;
+	font-weight: 1000;
+	padding: 0;
+	line-height: 35px;
+}
+h2
+{
+    font-size: 9pt;
+	font-family:MontserratSemiBold;
+	font-weight: 800;
+	padding: 0;
+	line-height: 10px
+    
+    
+    
+    
+    
+}
+h3
+{
+    font-size: 9pt;
+	font-family:MontserratSemiBold;
+	font-weight: 800;
+	padding: 0;
+	line-height: 10px
+    
+    
+}
+h4
+{
+    font-size: 9pt;
+	font-family:MontserratSemiBold;
+	font-weight: 800;
+	padding: 0;
+	line-height: 10px
+}
+h5
+{
+	font-size: 9pt;
+	font-family:MontserratThin;
+	padding: 0px;
+	line-height: 20px;
+}
+
+button
+{
+	width: 138px;
+	height: 41px;
+	border-radius: 25px;
+	background-color: #5ac8d7;
+	color: white;
+	font-size: 70%;
+	font-style: bold;
+	border:none;
+}
+button h3 a
+{
+    text-decoration: none;
+    color:dimgray;    
+    
+}
+button:hover h3 a
+{
+    text-decoration: none;
+    color:#5ac8d7;
+    
+}
+button h4 a
+{
+    text-decoration: none;
+    color:white;    
+    
+}
+button:hover h4 a
+{
+    text-decoration: none;
+    color:darkcyan;
+    
+}
+input
+{
+	width: 350px;
+	height: 35px;
+	border-radius: 30px;
+	outline: #000000;
+    margin: 20px 0px 0px 40px;
+    float:left;
+}
+.container
+{
+    width: 1280px;
+    height: 5100px;
+    background-color: white;
+    
+}
+.part1
+{
+    width:1280px;
+    height:743px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f1f6fa+0,f1f6fa+45,bbbdc9+100 */
+background: #f1f6fa; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #f1f6fa 0%, #f1f6fa 45%, #bbbdc9 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #f1f6fa 0%,#f1f6fa 45%,#bbbdc9 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #f1f6fa 0%,#f1f6fa 45%,#bbbdc9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f6fa', endColorstr='#bbbdc9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ 
+}
+.part2
+{
+    width:100%;
+    height:890px;
+    background-color:white;
+    
+}
+.part3
+{
+   width:100%;
+    height:725px;
+    background-color: #f4f4f4;
+    padding: 0px 0px 0px 0px;
+}
+.part3a
+{
+    width:25%;
+    height:50%;
+    padding:0px;
+    float:left;
+}
+.part4
+{
+    width:100%;
+    height:650px;
+    margin:50px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
+    background-color: transparent;
+    
+}
+.part4a
+{
+    width:100%;
+    height:370px;
+    display:flex;
+    justify-content: center;
+    
+    
+}
+.img4
+{
+    width:23%;
+    height:370px;
+    float:left;
+    margin:10px;
+    
+    
+}
+.part5
+{
+    width: 100%;
+    height: 270px;
+    background-color:#86c7d6;
+    display:flex;
+    justify-content: center;
+    
+}
+.contentp5
+{
+    width:15%;
+    height:33%;
+    padding:0px 15px 0px 15px;
+    float:left;
+    margin: 100px 0px 30px 0px;
+}
+.part6
+{
+    width:100%;
+    height: 700px;
+    
+}
+.part6a
+{
+    width:100%;
+    height:100px;
+    margin:40px 0px 0px 0px;
+    padding:10px 0px 0px 0px;
+    
+}
+.part6b
+{
+    width:100%;
+    height:650px;
+    display:flex;
+    justify-content: center;
+    
+    
+}
+.content6
+{
+    width:23%;
+    height:100%;
+    margin:20px -10px 0px -10px;
+    
+    
+}
+.part7
+{
+    width:100%;
+    height:200px;
+    align-content: center;
+    
+}
+.part8
+{
+    width:100%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+       
+}
+.part8a
+{
+    width:16%;
+    height:200px;
+    margin:100px 10px 100px 10px;
+    
+}
+.part9
+{
+    width:100%;
+    height:400px;
+    background-color:#1f1f1f;
+}
+.part9 ul
+{
+    list-style: none;
+    margin: 0px 150px 0px 150px
+}
+.part9 ul li
+{
+    float:left;
+    margin: 30px;
+}
+.part9 ul li a
+{
+    text-decoration: none;
+    color:white;
+    font-family: MontserratBold;
+    font-size: 10pt;
+    
+}
+.header1
+{
+    width: 1280px;
+    height:150px;
+    
+    
+    
+}
+.header2
+{
+    width:100%;
+    height: 20%;
+    
+    
+    
+}
+.textheead02
+{
+    width:40%;
+    height:20%;
+    margin:0px 0px 0px 120px;
+    float:left;
+    
+}
+.text002
+{
+    width:45%;
+    height:55%;
+    float: right;
+    padding: 150px 0px 0px 0px;
+    
+}
+
+.image02
+{
+    width:45%;
+    height:75%;
+    float:left;
+}
+.slider
+{
+    width:100%;
+    height: 600px;
+    
+}
+.slider1
+{
+    width: 43%;
+    height:100%;
+    float:right;
+    padding:5px 0px 0px 60px;
+    position :relative;
+}
+.slider1a
+{
+    width:60%;
+    height:50%;
+    padding: 0px 0px 0px 80px;
+    position:absolute;
+    
+    
+} 
+.slider2
+{
+    width:48%;
+    height:100%;
+    margin:0px;
+
+    
+}
+.slider3
+{
+    width:100%;
+    height:17%;
+    padding: 50px 0px 0px 0px;
+    
+}
+.slider4
+{
+    width:100%;
+    height:75%;
+    
+}
+.Logo
+{
+    width:28%;
+    height:100%;
+    float:left;
+    padding: 10px
+    
+    
+}
+.menu
+{
+    width:70%;
+    height:100%;
+    float:left;
+}
+.menu ul
+{
+    list-style:none;
+    
+}
+.menu ul li
+{
+    float: left;
+    padding: 20px;
+    text-decoration-color: darkgray;
+    
+    
+        
+    
+    
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color:grey;
+    
+    
+    
+}
+.menu ul li :hover
+{
+    font-weight: bold;
+    color:#55c6d6;
+}
